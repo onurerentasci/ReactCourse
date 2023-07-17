@@ -1,0 +1,53 @@
+.task-list {
+  width: 150vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.show-task {
+  border: 2px solid green;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-title {
+  margin-bottom: 2px;
+}
+
+.btn-delete {
+  padding: 5px;
+  font-size: 15px;
+  width: 60px;
+  border: 3px solid crimson;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  scale: 1.1;
+}
+
+.btn-update {
+  padding: 5px;
+  font-size: 15px;
+  width: 90px;
+  border: 3px solid royalblue;
+  border-radius: 30px;
+  background-color: navy;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.btn-update:hover {
+  scale: 1.1;
+}
