@@ -1,0 +1,21 @@
+.container {
+  margin-top: 8vh;
+  align-items: center;
+}
+
+.searchform {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
+
+.searchform input {
+  height: 40px;
+  border-radius: 25px;
+  border: 3px solid #7a7a7a;
+  background-color: #c8c8c8;
+  padding-left: 30px;
+}
