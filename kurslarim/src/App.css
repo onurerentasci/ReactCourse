@@ -1,0 +1,78 @@
+.course-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 39vh;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.card-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.card-price {
+  font-style: italic;
+  color: brown;
+}
+
+.card-delete-btn {
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
+.card-delete-btn:hover {
+  border: 1px solid #a7a7a7;
+  scale: 1.05;
+  transition: all 0.2s ease-in-out;
+}
+
+.refresh-div {
+  text-align: center;
+}
+
+.card-refresh-btn {
+  width: 30%;
+  height: 60px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: palevioletred;
+}
+
+.card-refresh-btn:hover {
+  border: none;
+  scale: 1.05;
+  transition: all 0.2s ease-in-out;
+}
+
+.prev-next-btn {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 30px;
+  color: brown;
+  cursor: pointer;
+}
+
+.random-btn {
+  width: 30%;
+  height: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: rebeccapurple;
+  color: white;
+}
