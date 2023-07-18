@@ -1,0 +1,87 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 70vh;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px 7px;
+  font-size: 16px;
+  border: 3px solid #4a5568;
+  border-radius: 8px;
+  background-color: #2d3748;
+  color: white;
+  margin: 5px 0px;
+  outline: none;
+}
+
+input::placeholder {
+  color: lightgray;
+}
+
+input:focus {
+  border-color: lightblue;
+}
+
+.inputDiv {
+  margin-bottom: 10px;
+}
+
+.inputDiv label {
+  margin-left: 1vh;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 16px 0px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid greenyellow;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #2b692b;
+}
+
+.input-error {
+  border-color: #fc8181;
+}
+
+.error {
+  color: #fc8181;
+  font-size: 16px;
+  text-align: start;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checkbox input {
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
