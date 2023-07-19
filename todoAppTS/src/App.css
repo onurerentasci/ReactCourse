@@ -1,0 +1,38 @@
+.maincard {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+}
+
+.maincardinput {
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 3px solid rgb(122, 164, 200);
+}
+
+.maincardbutton {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+.todocard {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  justify-content: center;
+}
+
+.card {
+  width: 20vh;
+  border: 2px solid rgb(122, 164, 200);
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 20px;
+}
