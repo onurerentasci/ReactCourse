@@ -1,0 +1,35 @@
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 50px;
+}
+
+.cartInfo {
+  margin-top: 70px;
+}
+
+.cartQuantityButton {
+  border: none;
+  background-color: cadetblue;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  color: wheat;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cartQuantity {
+  font-size: 30px;
+}
+
+.cartDeleteButton {
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  background-color: crimson;
+  color: white;
+  margin-top: 80px;
+}
